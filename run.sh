@@ -1,6 +1,8 @@
 git clone https://github.com/chupino/mctest.git mc
 cd mc
 
+sudo chown $user:$user server.properties
+
 docker build -t mctest .
 
 if [ $? -eq 0 ]; then

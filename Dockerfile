@@ -4,3 +4,4 @@ ENV VERSION=1.21
 EXPOSE 25565
 COPY world .
 COPY server.properties .
+RUN sudo chown $user:$user server.properties
