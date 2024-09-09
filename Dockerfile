@@ -4,4 +4,3 @@ ENV VERSION=1.21
 EXPOSE 25565
 COPY world .
 COPY server.properties .
-RUN echo "Corriendo (la mami de noa esta buena 😬)"
