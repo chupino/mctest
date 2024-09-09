@@ -9,4 +9,6 @@ services:
     ports:
       - "25565:25565"
     volumes:
-      - ./world2:/worlds/world
+      - mcworld/world:/worlds/world
+volumes:
+  mc_world:
