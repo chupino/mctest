@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "translate": "achievements.room70.name"
+        },
+        "description": {
+            "translate": "achievements.room70.desc",
+			"color": "green"
+        },
+        "icon": {
+            "item": "minecraft:hopper"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "room70": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"parent": "hotel:hotel/room60"
+}

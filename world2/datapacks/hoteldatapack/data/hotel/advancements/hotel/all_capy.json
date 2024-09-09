@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "translate": "achievements.allcapy.name"
+        },
+        "description": {
+            "translate": "achievements.allcapy.desc",
+			"color": "purple"
+        },
+        "icon": {
+            "item": "minecraft:bell"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "all_capy": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+		"parent": "hotel:hotel/first_capy"
+}

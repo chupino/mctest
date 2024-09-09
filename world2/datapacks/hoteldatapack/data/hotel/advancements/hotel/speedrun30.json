@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "translate": "achievements.speedrun30.name"
+        },
+        "description": {
+            "translate": "achievements.speedrun30.desc",
+			"color": "purple"
+        },
+        "icon": {
+            "item": "minecraft:iron_boots"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "speedrun": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"parent": "hotel:hotel/speedrun"
+}

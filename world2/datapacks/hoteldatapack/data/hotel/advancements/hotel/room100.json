@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "translate": "achievements.room100.name"
+        },
+        "description": {
+            "translate": "achievements.room100.desc",
+			"color": "green"
+        },
+        "icon": {
+            "item": "minecraft:azalea_leaves"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "room100": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"parent": "hotel:hotel/room90"
+}
