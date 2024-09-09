@@ -5,10 +5,10 @@ services:
     environment:
       - EULA=true
       - VERSION=1.20
-      - WORLD=/worlds/world
+      - WORLD=/worlds/world2
     ports:
       - "25565:25565"
     volumes:
-      - mcworld:/worlds/world
+      - mcworld:/worlds
 volumes:
   mcworld:
