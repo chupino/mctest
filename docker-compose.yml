@@ -5,7 +5,7 @@ services:
     environment:
       - EULA=true
       - VERSION=1.20
-      - FORCE_WORLD_COPY=true
+      - WORLD=https://www.curseforge.com/api/v1/mods/644465/files/5385444/download
     ports:
       - "25565:25565"
     volumes:
