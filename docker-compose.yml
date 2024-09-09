@@ -9,4 +9,4 @@ services:
     ports:
       - "25565:25565"
     volumes:
-      - ./world:/worlds/world/
+      - ./world:/worlds:ro
