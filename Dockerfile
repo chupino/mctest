@@ -2,9 +2,9 @@ FROM itzg/minecraft-server
 ENV EULA=true
 ENV VERSION=1.20
 EXPOSE 25565
-COPY ./world/* ./world/
-#COPY ./serverproperties ./serverproperties
+COPY ./parkour/* ./parkour/
+COPY ./serverproperties ./serverproperties
 COPY ./ops.json ./
-#RUN chmod 777 ./serverproperties
-#RUN mv ./serverproperties ./server.properties
-run chmod -R 777 ./world
+RUN chmod 777 ./serverproperties
+RUN mv ./serverproperties ./server.properties
+run chmod -R 777 ./parkour
