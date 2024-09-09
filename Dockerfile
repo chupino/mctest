@@ -7,4 +7,4 @@ COPY ./world/* ./world/
 COPY ./ops.json ./
 #RUN chmod 777 ./serverproperties
 #RUN mv ./serverproperties ./server.properties
-run chmod 777 ./world/session.lock
+run chmod 777 ./world
