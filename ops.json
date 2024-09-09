@@ -1,1 +1,12 @@
-["chupiino","Inefable2024"]
+[
+	{
+		"uuid": "aaa",
+		"name": "chupiino",
+		"level":4
+	},
+	{
+		"uuid": "aaj",
+		"name": "Inefable2024",
+		"level": 4
+	}
+]
