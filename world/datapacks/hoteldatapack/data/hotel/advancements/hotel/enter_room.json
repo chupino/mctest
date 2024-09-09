@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "translate": "achievements.enterroom.name"
+        },
+        "description": {
+            "translate": "achievements.enterroom.desc",
+			"color": "green"
+        },
+        "icon": {
+            "item": "minecraft:stone_axe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "enter_room": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"parent": "hotel:hotel/talk_rec"
+}

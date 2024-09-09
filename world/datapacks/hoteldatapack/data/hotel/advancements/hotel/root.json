@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "translate": "achievements.root.name"
+        },
+        "description": {
+            "translate": "achievements.root.desc",
+			"color": "green"
+        },
+        "icon": {
+            "item": "minecraft:damaged_anvil"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/acacia_planks.png"
+    },
+    "criteria": {
+        "welcome": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

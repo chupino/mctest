@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "translate": "achievements.room10.name"
+        },
+        "description": {
+            "translate": "achievements.room10.desc",
+			"color": "green"
+        },
+        "icon": {
+            "item": "minecraft:red_bed"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "room10": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"parent": "hotel:hotel/root"
+}
