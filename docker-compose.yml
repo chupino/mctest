@@ -5,7 +5,8 @@ services:
     environment:
       - EULA=true
       - VERSION=1.20
+      - FORCE_WORLD_COPY=true
     ports:
       - "25565:25565"
     volumes:
-      - ./world:/worlds/world
+      - ./world:/worlds/world/
