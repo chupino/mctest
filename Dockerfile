@@ -2,7 +2,7 @@ FROM itzg/minecraft-server
 ENV EULA=true
 ENV VERSION=1.20
 EXPOSE 25565
-COPY ./world2/ /worlds/world/
+COPY ./world/ /worlds/world/
 ENV WORLD=/worlds/world
 COPY ./serverproperties ./serverproperties
 COPY ./ops.json ./
