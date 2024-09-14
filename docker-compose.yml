@@ -10,6 +10,7 @@ services:
       - "25565:25565"
     volumes:
       - ./world2/:/worlds/world/
+      - ./server.properties:/data/
 volumes:
   mcworld:
 
