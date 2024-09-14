@@ -1,6 +1,6 @@
 FROM itzg/minecraft-server
 ENV EULA=true
-ENV VERSION=1.21
+ENV VERSION=1.19.1
 EXPOSE 25565
 COPY ./world/ /worlds/world/
 ENV WORLD=/worlds/world
