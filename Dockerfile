@@ -9,4 +9,3 @@ COPY ./serverproperties ./serverproperties
 COPY ./ops.json ./
 RUN chmod 777 ./serverproperties
 RUN mv ./serverproperties ./server.properties
-run chmod -R 777 ./parkour
